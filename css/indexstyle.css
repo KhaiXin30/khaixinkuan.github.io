@@ -2334,7 +2334,7 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   padding-left: 0;
 }
 
@@ -2647,10 +2647,12 @@ figcaption {
 }
 
 .footer-wrap {
-  justify-content: space-between;
   align-items: center;
   padding: 40px 50px;
   display: flex;
+  background-color: rgb(237,237,237);
+  justify-content: flex-end;
+  margin-top: 100px;
 }
 
 .webflow-link {

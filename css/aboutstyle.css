@@ -2654,10 +2654,11 @@ work-section {
 }
 
 .footer-wrap {
-  justify-content: space-between;
   align-items: center;
   padding: 40px 50px;
   display: flex;
+  background-color: rgb(237,237,237);
+  justify-content: flex-end;
 }
 
 .webflow-link {

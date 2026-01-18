@@ -294,7 +294,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+/* .w-webflow-badge, .w-webflow-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
@@ -335,16 +335,16 @@ pre.w-code-block code {
   text-transform: unset;
   list-style-type: unset;
   text-shadow: unset;
-  vertical-align: unset;
-  cursor: unset;
+  /* vertical-align: unset; */
+  /* cursor: unset;
   white-space: unset;
   word-break: unset;
   word-spacing: unset;
   word-wrap: unset;
   transition: unset;
-}
+} */ */
 
-.w-webflow-badge {
+/* .w-webflow-badge {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
@@ -366,15 +366,15 @@ pre.w-code-block code {
   position: fixed !important;
   inset: auto 12px 12px auto !important;
   transform: none !important;
-}
+} */
 
-.w-webflow-badge > img {
+/* .w-webflow-badge > img {
   position: unset;
   visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
   display: inline-block !important;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
@@ -2335,15 +2335,11 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   padding-left: 0;
 }
 
-work-section {
-  padding-top: 0px;
-  
 
-}
 
 .section.cc-contact {
   background-color: #f4f4f4;
@@ -2654,10 +2650,11 @@ work-section {
 }
 
 .footer-wrap {
-  justify-content: space-between;
   align-items: center;
-  padding: 40px 50px;
+  padding: 40px 80px;
   display: flex;
+  background-color: rgb(237,237,237);
+  justify-content: flex-end;
 }
 
 .webflow-link {
